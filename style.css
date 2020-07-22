@@ -1,0 +1,128 @@
+/*Font Import*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+/*
+@font-face {
+    font-family: 'Inter';
+    src: url(/fonts/inter/Inter-Regular-slnt=0.ttf)
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(/fonts/inter/Inter-Bold-slnt=0.ttf);
+}
+
+@font-face {
+    font-family: 'Inter-Black-Bold';
+    src: url(/fonts/inter/Inter-Black-slnt=0.ttf);
+}
+
+@font-face {
+    font-family: 'Open-Sans';
+    src: url(/fonts/opensans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open-Sans-Bold';
+    src: url(/fonts/opensans/OpenSans-Bold.ttf);
+    font-weight: bold;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f8f8f8;
+}
+
+
+h1 {
+    font-family: 'Inter';
+    font-weight: Bold 700;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, 50%);
+}
+
+.botao {
+    background: #05f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    height: 45px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: white;
+    font-family: bold 700 'Open Sans';
+    font-size: 20px;
+}
+
+.botao1 {
+    background: #0efb71;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -58%);
+    width: 140px;
+    height: 45px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: white;
+    font-family: bold 700 'Open Sans';
+    font-size: 20px;
+}
+
+.botao3 {
+    background: #0055ff;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    width: 140px;
+    height: 45px;
+    border: 1px solid transparent;
+    border-radius: 11px;
+    color: white;
+    font-family: bold 700 'Open Sans';
+    font-size: 20px;
+}
+
+.botao4 {
+    background: #0efb71;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -72%);
+    width: 140px;
+    height: 45px;
+    border: 1px solid transparent;
+    border-radius: 11px;
+    color: white;
+    font-family: bold 700 'Open Sans';
+    font-size: 20px;
+}
+
+.botao1-teste {
+    background: #0efb71;
+    position: absolute;
+    margin-top: 40px;
+    width: 140px;
+    height: 45px;
+    border: 1px solid transparent;
+    border-radius: 11px;
+    color: white;
+    font-family: bold 700 'Open Sans';
+    font-size: 20px;
+}
